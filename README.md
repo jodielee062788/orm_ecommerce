@@ -39,6 +39,7 @@ To install and run the SVG Logo Maker, follow these steps:
 5. Run the schema and seed commands to create and seed the database:
 
     ```source db/schema.sql```
+
     ```npm run seed```
 
 ## Usage
@@ -48,19 +49,22 @@ To use this repository, follow these steps:
 
     ```npm start```
 
-2. Once the application is running, you can use API endpoints to interact with the database. Here are some example endpoints:
+2. Test the Endpoints: You can now test the API endpoints using a tool like Insomnia. Here are some example endpoints you can test:
 
-GET /api/categories: Retrieve all categories.
-GET /api/products: Retrieve all products with associated category and tags.
-POST /api/products: Create a new product.
-PUT /api/products/:id: Update a product by ID.
-DELETE /api/products/:id: Delete a product by ID.
+    - GET /api/categories: Retrieve all categories.
+    - GET /api/products: Retrieve all products.
+    - GET /api/tags: Retrieve all tags.
+    - POST /api/categories: Create a new category.
+    - POST /api/products: Create a new product.
+    - POST /api/tags: Create a new tag.
+    - PUT /api/categories/:id: Update a category by ID.
+    - PUT /api/products/:id: Update a product by ID.
+    - PUT /api/tags/:id: Update a tag by ID.
+    - DELETE /api/categories/:id: Delete a category by ID.
+    - DELETE /api/products/:id: Delete a product by ID.
+    - DELETE /api/tags/:id: Delete a tag by ID.
 
-    ![Screenshot of various options](./assets/1.png)
-
-    ![Screenshot of various options](./assets/1-2.png)
-
-3. 
+    ![Screenshot of insomnia after running the program](./assets/img/1.png)
 
 ## Walkthrough Video
 
